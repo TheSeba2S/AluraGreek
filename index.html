@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGreek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <nav>
+            <h1>AluraGreek</h1>
+            <p>Github</p>
+        </nav>
+    </header>
+    <!-- Contenido principal -->
+    <main>
+        <section class="products-container">
+            <h2>Mis productos:</h2>
+            <div class="products">
+                <!-- <div class="producto">
+                    
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.5JEaxq3q4bvK5NJVm-M7UAHaHa%26pid%3DApi&f=1&ipt=1169420bc0a9b99cab79cae6a8781d5e37ce7a84b652a22827f97c7f47430af5&ipo=images" alt="Producto">
+                    <p>Taza Stormtrooper</p>
+                    <div class="product_info">
+                        <span>$20</span>
+                        <button class="eliminar"><i class="fa-solid fa-trash"></i></button>
+                    </div> 
+                </div> -->
+            </div>
+        </section>
+
+        <section class="add_products">
+            <h2>Agregar producto:</h2>
+            <form class="formulario">
+                <div class="addingProduct">
+                    <label for="nombre">Nombre:</label>
+                    <input id="name" name="nombre" type="text" placeholder="Ex: Game Boy Classic">
+                </div>
+                <div class="addingProduct">
+                    <label for="precio">Precio:</label>
+                    <input id="price" min="1" name="precio" type="number" placeholder="Precio del producto" required="true">
+                </div>
+                <div class="addingProduct">
+                    <label for="Imagen">Imagen del producto:</label>
+                    <input id="img" name="Imagen" type="url" placeholder="https://ejemplo.png" required>
+                </div>
+                <button id="addProduct" type="submit">Agregar</button>
+            </form>
+        </section>
+    </main>
+    <!-- Pie de página -->
+    <footer>
+        <h2>Website made by: Seba2S</h2>
+    </footer>
+
+    <!-- JS CODE  -->
+     <script src="app.js"></script>
+     <script src="https://kit.fontawesome.com/6c0b8cf639.js" crossorigin="anonymous"></script>
+</body>
+</html>
